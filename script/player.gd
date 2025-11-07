@@ -2,7 +2,7 @@ extends CharacterBody2D
 
 const PlayerState = preload("res://script/player_state.gd")
 
-const SPEED = 30.0
+const SPEED = 25.0
 
 var movement_state = PlayerState.MovementState.IDLE
 var attack_state = null
